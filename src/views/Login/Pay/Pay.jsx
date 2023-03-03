@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class Pay extends Component {
     //AQUI VAI A LÓGICA!
 
