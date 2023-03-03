@@ -1,0 +1,10 @@
+@use "../../sass/variables" as *;
+
+.header{
+    padding: 30px;
+    background-color: $header-background ;
+
+    img {
+        width: 100px;
+    }
+}
