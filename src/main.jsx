@@ -8,7 +8,8 @@ import {
 import Login from './views/Login/Login';
 import Home from './views/Login/Home/Home';
 import Products from './views/Login/Products/Products';
-import Pay from './views/Login/Pay/Pay';
+import Pay from './views/Login/Pay/Pay'
+
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
     path: "/pay/:payId",
     element: <Pay />,
   },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
